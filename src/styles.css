@@ -28,7 +28,7 @@ background: hsl(0, 0%, 95%);
 
 .container{
     width: 90%;
-   min-width: 375px;
+    max-width: 1440px;
     margin: 8em auto;
 }
 
@@ -43,8 +43,8 @@ background: hsl(0, 0%, 95%);
 
 @media (min-width:675px){
     .container{
-       max-width: 1440px;
-       margin-top: 0;
+     
+     min-width: 375px;
     }
 
     .row{
@@ -61,6 +61,7 @@ background: hsl(0, 0%, 95%);
 
 .col-1{
     background: hsl(31, 77%, 52%);
+    border-radius: 5px 0 0 5px;
 }
 
 .col-2{
@@ -70,6 +71,7 @@ background:  hsl(184, 100%, 22%);
 
 .col-3{
     background: hsl(179, 100%, 13%);
+    border-radius: 0 5px 5px 0;
 }
 
 .col-1,
